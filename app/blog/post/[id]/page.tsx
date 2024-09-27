@@ -1,4 +1,4 @@
-import { posts } from '@/app/lib/placeholder-data';
+import { posts } from '@/app/lib/placeholder-data.js';
 import Post from '@/app/ui/components/posts/Post';
 
 export default function Page({ params }: { params: { id: string } }) {
