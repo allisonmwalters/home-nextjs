@@ -1,4 +1,4 @@
-import styles from "@/app/ui/styles/home.module.css";
+import styles from "/home/allison/my-app/app/ui/styles/home.module.css";
 import Image from 'next/image';
 
 export default function Home() {

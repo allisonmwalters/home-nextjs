@@ -1,4 +1,4 @@
-import SideNav from "@/app/ui/components/sidenav";
+import SideNav from "/home/allison/my-app/app/ui/components/sidenav";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

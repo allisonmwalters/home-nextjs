@@ -1,6 +1,6 @@
-import { posts } from '@/app/lib/placeholder-data.js';
-import Post from '@/app/ui/components/posts/Post';
-import { connectToDb } from '@/app/lib/data';
+import { posts } from '/home/allison/my-app/app/lib/placeholder-data.js';
+import Post from '/home/allison/my-app/app/ui/components/posts/Post';
+import { connectToDb } from '/home/allison/my-app/app/lib/data';
 
 export default async function Page({ params }: { params: { id: string } }) {
     const post = posts.find((post) => post.id === params.id);

@@ -1,6 +1,6 @@
 import { createClient } from '@vercel/postgres';
 
-export async function connectToDB() {
+export async function connectToDb() {
     const client = createClient();
     await client.connect();
 

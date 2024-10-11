@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto, Cormorant } from "next/font/google";
-import "@/app/ui/styles/globals.css";
+import "/home/allison/my-app/app/ui/styles/globals.css";
 
 const cormorant = Cormorant({ subsets: ["latin"] });
 
